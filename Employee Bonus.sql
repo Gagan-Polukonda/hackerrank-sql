@@ -1,4 +1,0 @@
-select name, Bonus.bonus
-from Employee
-    left join Bonus using(empId)
-where Bonus.bonus<1000 or Bonus.bonus is null
